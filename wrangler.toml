@@ -17,7 +17,7 @@ id = "36434c92fa9e49d9bae91a68896bb1ee" # unique ID of the previously created na
 
 [vars]
 # - BEARER_TOKEN (Defined with wrangler secret put)
-CORS_ORIGIN = "https://denied.kennyatx.com/debug" # This should be the route pattern domain /debug (https://example.com/debug)
+CORS_ORIGIN = "https://denied.kennyatx.com" # This should be the route pattern domain /debug (https://example.com/debug)
 ACCOUNT_ID = "cf750f8c640ce29841b5bc38221ea13d"
 ORGANIZATION_ID = "cf750f8c640ce29841b5bc38221ea13d"
 ORGANIZATION_NAME = "kennyatx"

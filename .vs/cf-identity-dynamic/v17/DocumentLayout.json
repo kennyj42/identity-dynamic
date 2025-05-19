@@ -17,7 +17,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 199,
+          "DockedHeight": 304,
           "SelectedChildIndex": 6,
           "Children": [
             {
@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "wrangler.toml",
               "ToolTip": "C:\\Users\\KennethJohnson\\source\\repos\\cf-identity-dynamic\\wrangler.toml",
               "RelativeToolTip": "wrangler.toml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-05-19T02:26:25.394Z",
               "EditorCaption": ""
@@ -61,7 +61,7 @@
               "RelativeDocumentMoniker": "src\\components\\posture.js",
               "ToolTip": "C:\\Users\\KennethJohnson\\source\\repos\\cf-identity-dynamic\\src\\components\\posture.js",
               "RelativeToolTip": "src\\components\\posture.js",
-              "ViewState": "AgIAAOgAAAAAAAAAAAAUwPcAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-05-19T02:37:50.451Z",
               "EditorCaption": ""
@@ -69,7 +69,7 @@
           ]
         },
         {
-          "DockedHeight": 201,
+          "DockedHeight": 96,
           "SelectedChildIndex": -1,
           "Children": [
             {

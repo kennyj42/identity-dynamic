@@ -242,7 +242,7 @@ const Posture = ({ onLoaded }) => {
           Please enable WARP to view device posture information.
         </div>
       )}
-      {errorMessage && <p className="text-red mt-4">{errorMessage}</p>}
+
     </div>
   );
 };

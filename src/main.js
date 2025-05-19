@@ -26,7 +26,7 @@ addEventListener("fetch", (event) => {
 // This also has the theme since its stored in kv upon configuration
 const corsOrigin = CORS_ORIGIN;
 const corsHeaders = {
-  "Access-Control-Allow-Origin": corsOrigin,
+  "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
   "Access-Control-Allow-Headers": "Content-Type",
 };

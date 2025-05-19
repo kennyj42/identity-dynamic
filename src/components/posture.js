@@ -9,7 +9,9 @@ const Posture = ({ onLoaded }) => {
     const [osStatus, setOsStatus] = useState({ message: "", passed: false });
     const [warpEnabled, setWarpEnabled] = useState(null);
     const [tooltipStyles, setTooltipStyles] = useState({});
-    const [errorMessage, setErrorMessage] = useState(''); // ✅ Add this line
+    const [errorMessage, setErrorMessage] = useState('');
+    const tooltipTriggerRef = useRef(null);
+
 
     setErrorMessage('An error occurred'); // ✅ now this will work
 

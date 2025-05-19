@@ -1,17 +1,17 @@
-import React, { useState, useEffect, useRef } from "react";
+﻿import React, { useState, useEffect, useRef } from "react";
 import { createPortal } from "react-dom";
 import "./status.css";
 
 const Posture = ({ onLoaded }) => {
-  const [osPostureChecks, setOsPostureChecks] = useState([]);
-  const [securityKey, setSecurityKey] = useState(null);
-  const [crowdstrikeStatus, setCrowdstrikeStatus] = useState(null);
-  const [osStatus, setOsStatus] = useState({ message: "", passed: false });
-  const [warpEnabled, setWarpEnabled] = useState(null);
-  const [tooltipStyles, setTooltipStyles] = useState({});
-  const [errorMessage, setErrorMessage] = useState("");
+    const [osPostureChecks, setOsPostureChecks] = useState([]);
+    const [securityKey, setSecurityKey] = useState(null);
+    const [crowdstrikeStatus, setCrowdstrikeStatus] = useState(null);
+    const [osStatus, setOsStatus] = useState({ message: "", passed: false });
+    const [warpEnabled, setWarpEnabled] = useState(null);
+    const [tooltipStyles, setTooltipStyles] = useState({});
+    const [errorMessage, setErrorMessage] = useState(''); // ✅ Add this line
 
-  const tooltipTriggerRef = useRef(null);
+    setErrorMessage('An error occurred'); // ✅ now this will work
 
   useEffect(() => {
     const fetchData = async () => {

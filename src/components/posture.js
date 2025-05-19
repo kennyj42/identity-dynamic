@@ -13,7 +13,7 @@ const Posture = ({ onLoaded }) => {
     const tooltipTriggerRef = useRef(null);
 
 
-    setErrorMessage('An error occurred'); // ✅ now this will work
+    setErrorMessage('An error occurred'); 
 
   useEffect(() => {
     const fetchData = async () => {
